@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Sidebar from "./components/Sidebar";
 
 export default function Home() {
   return (
@@ -48,6 +49,13 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             Read our docs
+          </a>
+          {/* Button to redirect to the API Keys dashboard */}
+          <a
+            className="rounded-full border border-solid border-blue-500 transition-colors flex items-center justify-center bg-blue-600 text-white gap-2 hover:bg-blue-700 font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
+            href="/dashboards"
+          >
+            Manage API Keys
           </a>
         </div>
       </main>
