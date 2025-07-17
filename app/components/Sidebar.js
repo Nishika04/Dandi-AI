@@ -5,7 +5,7 @@ const navLinks = [
   { name: "Overview", href: "/dashboards", icon: "🏠" },
   { name: "Research Assistant", href: "#", icon: "✨" },
   { name: "Research Reports", href: "#", icon: "📁" },
-  { name: "API Playground", href: "/playground", icon: "💻" },
+  { name: "API Playground", href: "/protected", icon: "💻" },
   { name: "Invoices", href: "#", icon: "🧾" },
   { name: "Documentation", href: "#", icon: "📄", external: true },
 ];
